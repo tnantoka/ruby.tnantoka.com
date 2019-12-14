@@ -22,3 +22,7 @@ jobs:
           name: run lint
           command: |
             bundle exec rubocop
+      - run:
+          name: run test
+          command: |
+            bundle exec ruby helpers_test.rb
