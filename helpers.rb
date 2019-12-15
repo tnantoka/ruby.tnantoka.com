@@ -10,6 +10,11 @@ def map1d(val, range1, range2)
   map_mt(value, first1, last1, first2, last2)
 end
 
+# https://github.com/ruby-processing/JRubyArt/blob/39b17889d53a54e3761c4b29e87425e692f4ec17/src/main/java/monkstone/MathToolModule.java#L103
+def p5map(value, first1, last1, first2, last2)
+  map_mt(value.to_f, first1.to_f, last1.to_f, first2.to_f, last2.to_f)
+end
+
 # https://github.com/ruby-processing/JRubyArt/blob/39b17889d53a54e3761c4b29e87425e692f4ec17/src/main/java/monkstone/MathToolModule.java#L179
 def map_mt(value, first1, last1, first2, last2)
   first2 + (last2 - first2) * ((value - first1) / (last1 - first1))
