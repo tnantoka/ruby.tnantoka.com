@@ -20,14 +20,6 @@ class Canvas
     self.center = Point.new(SIZE * 0.5, SIZE * 0.5)
   end
 
-  def draw
-    range = (-15..15).to_a
-    (range + range.reverse).each do |amplitude|
-      image = image_list.new_image(SIZE, SIZE) { self.background_color = 'black' }
-      draw_polygon(image, points(amplitude))
-    end
-  end
-
   def open
     draw
     write
@@ -35,6 +27,14 @@ class Canvas
   end
 
   private
+
+  def draw
+    range = (-15..15).to_a
+    (range + range.reverse).each do |amplitude|
+      image = image_list.new_image(SIZE, SIZE) { self.background_color = 'black' }
+      draw_polygon(image, points(amplitude))
+    end
+  end
 
   def write
     image_list.write(PATH)
