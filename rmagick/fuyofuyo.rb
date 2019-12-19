@@ -23,7 +23,7 @@ class Canvas
   def open
     draw
     write
-    `open -a Safari #{PATH}`
+    `hash open > /dev/null 2>&1 && open -a Safari #{PATH}`
   end
 
   private
