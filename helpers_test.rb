@@ -4,6 +4,7 @@ require 'test-unit'
 
 require './helpers'
 
+# rubocop:disable Metrics/LineLength
 class TestAdd < Test::Unit::TestCase
   # https://github.com/ruby-processing/JRubyArt/blob/8a293287fbec77faf3e8bfef5394b9df4b048dec/test/test_map1d.rb#L15
   def test_map1d
@@ -31,3 +32,4 @@ class TestAdd < Test::Unit::TestCase
     assert_equal(p5map(x[3], range1.first, range1.last, range2.first, range2.last), 1)
   end
 end
+# rubocop:enable Metrics/LineLength

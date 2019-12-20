@@ -7,6 +7,9 @@ RUN apk add alpine-sdk imagemagick6-dev
 RUN mkdir $APP
 WORKDIR $APP
 
+RUN gem install bundler
+
 COPY Gemfile $APP/Gemfile
 COPY Gemfile.lock $APP/Gemfile.lock
+
 RUN bundle install

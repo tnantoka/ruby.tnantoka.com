@@ -31,7 +31,9 @@ class Canvas
   def draw
     range = (-15..15).to_a
     (range + range.reverse).each do |amplitude|
-      image = image_list.new_image(SIZE, SIZE) { self.background_color = 'black' }
+      image = image_list.new_image(SIZE, SIZE) do
+        self.background_color = 'black'
+      end
       draw_polygon(image, points(amplitude))
     end
   end
