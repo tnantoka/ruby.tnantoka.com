@@ -1,14 +1,30 @@
+GIT
+  remote: https://github.com/tnantoka/magick_canvas
+  revision: 5709a078e3b3a3c87ec7042a903b9dd0af4de97f
+  specs:
+    magick_canvas (0.1.1)
+      listen (~> 3.2.1)
+      rmagick (~> 4.0.0)
+      thor (~> 1.0.1)
+
 GEM
   remote: https://rubygems.org/
   specs:
     ast (2.4.0)
+    ffi (1.11.3)
     jaro_winkler (1.5.4)
+    listen (3.2.1)
+      rb-fsevent (~> 0.10, >= 0.10.3)
+      rb-inotify (~> 0.9, >= 0.9.10)
     parallel (1.19.1)
     parser (2.6.5.0)
       ast (~> 2.4.0)
     perlin_noise (0.1.3)
     power_assert (1.1.5)
     rainbow (3.0.0)
+    rb-fsevent (0.10.3)
+    rb-inotify (0.10.0)
+      ffi (~> 1.0)
     rmagick (4.0.0)
     rubocop (0.77.0)
       jaro_winkler (~> 1.5.1)
@@ -20,14 +36,15 @@ GEM
     ruby-progressbar (1.10.1)
     test-unit (3.3.4)
       power_assert
+    thor (1.0.1)
     unicode-display_width (1.6.0)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
+  magick_canvas!
   perlin_noise
-  rmagick
   rubocop
   test-unit
 

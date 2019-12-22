@@ -26,3 +26,9 @@ $ docker run -it -v $PWD:/app ruby-tnantoka bundle exec ruby rmagick/fuyofuyo.rb
 ```
 $ docker run -v $PWD:/app ruby-tnantoka bundle
 ```
+
+## With MagickCanvas
+
+```
+$ bundle exec magick_canvas draw rmagick/sine_wave_png.rb -a=Safari -w
+```

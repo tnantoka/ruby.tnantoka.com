@@ -1,8 +1,6 @@
 # frozen_string_literal: true
 
-require_relative 'magick_canvas'
-
-class Canvas < MagickCanvas
+class Canvas < MagickCanvas::Base
   AMPLITUDE = 50
   FREQUENCY = 5
 
@@ -36,5 +34,3 @@ class Canvas < MagickCanvas
     end
   end
 end
-
-Canvas.new.open
