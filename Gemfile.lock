@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/tnantoka/magick_canvas
-  revision: 5709a078e3b3a3c87ec7042a903b9dd0af4de97f
+  revision: b49e1b801191ab2f913744fc97f836f8b69dcd79
   specs:
     magick_canvas (0.1.1)
       listen (~> 3.2.1)
@@ -23,7 +23,7 @@ GEM
     power_assert (1.1.5)
     rainbow (3.0.0)
     rb-fsevent (0.10.3)
-    rb-inotify (0.10.0)
+    rb-inotify (0.10.1)
       ffi (~> 1.0)
     rmagick (4.0.0)
     rubocop (0.77.0)

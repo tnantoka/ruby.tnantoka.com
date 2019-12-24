@@ -9,3 +9,4 @@ gem 'rubocop'
 gem 'test-unit'
 
 gem 'magick_canvas', github: 'tnantoka/magick_canvas'
+# gem 'magick_canvas', path: '../magick_canvas'
