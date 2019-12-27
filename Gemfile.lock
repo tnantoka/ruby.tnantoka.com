@@ -1,10 +1,4 @@
 GIT
-  remote: https://github.com/chipmunk-rb/chipmunk
-  revision: f161f160c06bf62b79f4fb20c876f3b6f99f4fe0
-  specs:
-    chipmunk (6.1.3.4)
-
-GIT
   remote: https://github.com/tnantoka/magick_canvas
   revision: b8eb3bf72eef32e4411fe99cef2bce05a9ba738e
   specs:
@@ -17,6 +11,7 @@ GEM
   remote: https://rubygems.org/
   specs:
     ast (2.4.0)
+    chipmunk (6.1.3.4)
     ffi (1.11.3)
     jaro_winkler (1.5.4)
     listen (3.2.1)
@@ -49,7 +44,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  chipmunk!
+  chipmunk
   magick_canvas!
   perlin_noise
   rubocop
