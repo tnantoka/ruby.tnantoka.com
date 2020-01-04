@@ -32,3 +32,7 @@ $ docker run -v $PWD:/app ruby-tnantoka bundle
 ```
 $ bundle exec magick_canvas draw rmagick/sine_wave_png.rb -a=Safari -w
 ```
+
+## Acknowledgments
+
+- https://github.com/ruby-processing/The-Nature-of-Code-for-JRubyArt

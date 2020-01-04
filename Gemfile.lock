@@ -1,10 +1,11 @@
 GIT
   remote: https://github.com/tnantoka/magick_canvas
-  revision: b8eb3bf72eef32e4411fe99cef2bce05a9ba738e
+  revision: aade3928ec7c2787aef324cb5d1521e93864008d
   specs:
     magick_canvas (0.1.1)
       listen (~> 3.2.1)
       rmagick (~> 4.0.0)
+      ruby-progressbar (~> 1.10.1)
       thor (~> 1.0.1)
 
 GEM

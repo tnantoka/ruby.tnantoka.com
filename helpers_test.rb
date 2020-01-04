@@ -2,10 +2,10 @@
 
 require 'test-unit'
 
-require './helpers'
+require_relative 'helpers'
 
 # rubocop:disable Metrics/LineLength
-class TestAdd < Test::Unit::TestCase
+class TestHelpers < Test::Unit::TestCase
   # https://github.com/ruby-processing/JRubyArt/blob/8a293287fbec77faf3e8bfef5394b9df4b048dec/test/test_map1d.rb#L15
   def test_map1d
     x = [0, 5, 7.5, 10]
