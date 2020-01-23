@@ -1,5 +1,7 @@
 # ruby.tnantoka.com
 
+![canvas](/canvas.gif)
+
 ## Without Docker
 
 ```

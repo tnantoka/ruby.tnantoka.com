@@ -42,7 +42,7 @@ class Canvas < MagickCanvas::Base
       width: 640,
       height: height,
       number_of_frames: height * 50,
-      frame_steps: 10,
+      frame_steps: 20,
       iterations: 1
     }
   end
