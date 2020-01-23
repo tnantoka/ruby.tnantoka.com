@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/tnantoka/magick_canvas
-  revision: aade3928ec7c2787aef324cb5d1521e93864008d
+  revision: 6bab88c98817a675008a3c7889a21c38abf1874d
   specs:
     magick_canvas (0.1.1)
       listen (~> 3.2.1)
